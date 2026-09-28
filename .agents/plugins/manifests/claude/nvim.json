@@ -1,0 +1,16 @@
+{
+  "name": "nvim",
+  "displayName": "Neovim Learning",
+  "description": "Learn Neovim through Tommy's own config, with progress tracked as he goes.",
+  "author": {
+    "name": "Tommy Seery"
+  },
+  "repository": "https://github.com/tj-agents/nvim",
+  "skills": "./skills/",
+  "keywords": [
+    "neovim",
+    "nvim",
+    "learning",
+    "editor"
+  ]
+}
