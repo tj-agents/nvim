@@ -1,0 +1,39 @@
+{
+  "plugin": "nvim",
+  "profiles": {
+    "core": [
+      "knowledge",
+      "learning"
+    ]
+  },
+  "skills": [
+    {
+      "name": "knowledge",
+      "kind": "knowledge",
+      "profile": "core",
+      "applicability": [
+        "Neovim use and learning"
+      ],
+      "requires": [
+        "neovim"
+      ],
+      "provenance": [
+        "house"
+      ]
+    },
+    {
+      "name": "learning",
+      "kind": "knowledge",
+      "profile": "core",
+      "applicability": [
+        "Neovim use and learning"
+      ],
+      "requires": [
+        "neovim"
+      ],
+      "provenance": [
+        "house"
+      ]
+    }
+  ]
+}

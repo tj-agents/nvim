@@ -1,0 +1,25 @@
+{
+  "name": "nvim",
+  "version": "1.0.0",
+  "description": "Learn Neovim through Tommy's own config, with progress tracked as he goes.",
+  "author": {
+    "name": "Tommy Seery"
+  },
+  "repository": "https://github.com/tj-agents/nvim",
+  "skills": "./skills/",
+  "keywords": [
+    "neovim",
+    "nvim",
+    "learning",
+    "editor"
+  ],
+  "interface": {
+    "displayName": "Neovim Learning",
+    "shortDescription": "Learn Neovim through your own config.",
+    "longDescription": "A teaching method and staged curriculum over Tommy's Neovim config, plus a tracker that records only what he has proven he knows.",
+    "developerName": "Tommy Seery",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Teach me the next Neovim step at my current level."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "nvim-agents",
+  "interface": {
+    "displayName": "Neovim Learning"
+  },
+  "plugins": [
+    {
+      "name": "nvim",
+      "source": {
+        "source": "local",
+        "path": "./plugins/nvim"
+      },
+      "policy": {
+        "installation": "INSTALLED_BY_DEFAULT",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
