@@ -51,7 +51,7 @@ class SourceLayoutTests(unittest.TestCase):
                 sync_generated.validate(ROOT, self.config, self.payloads, copied)
 
     def test_tier_applies_always_without_detection(self) -> None:
-        tier = json.loads((ROOT / ".agents/plugins/tier.json").read_text(encoding="utf-8"))
+        tier = json.loads((ROOT / ".agents/tiers/nvim.json").read_text(encoding="utf-8"))
         self.assertEqual("always", tier["applies"])
         self.assertNotIn("detect", tier)
 
