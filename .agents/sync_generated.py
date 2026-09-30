@@ -14,7 +14,7 @@ NAME = re.compile(r"^[a-z][a-z0-9-]*$")
 QUALIFIED_SKILL = re.compile(r"(?<![-/\w])(nvim|engineering):(?!:)([a-z][a-z0-9-]+)")
 BARE_SKILL_REFERENCE = re.compile(r"`([a-z][a-z0-9-]+)`\s+skill(?:'s)?")
 REQUIRED_METADATA = ("name", "description", "kind", "domain", "profile", "applicability", "requires", "provenance")
-RESERVED_AGENT_DIRS = {"plugins", "skills", "tests"}
+RESERVED_AGENT_DIRS = {"plugins", "skills", "tests", "tiers"}
 EXPECTED_GENERATED_ROOTS = (
     ".codex/skills",
     ".claude/skills",
@@ -30,7 +30,7 @@ EXPECTED_MARKETPLACE_TEMPLATES = {
     "claude": ".agents/plugins/manifests/claude/marketplace.json",
 }
 EXPECTED_MARKETPLACE_OUTPUTS = {"codex": ".agents/plugins/marketplace.json", "claude": ".claude-plugin/marketplace.json"}
-TIER_DECLARATION = ".agents/plugins/tier.json"
+TIER_DECLARATION = ".agents/tiers/nvim.json"
 
 
 def read(path: Path) -> str:
@@ -116,8 +116,8 @@ def validated_config(config: dict) -> None:
 
 def validate_tier(root: Path) -> None:
     declaration = load(root / TIER_DECLARATION)
-    if declaration.get("schema_version") != 1:
-        raise ValueError("The tier declaration must stay at schema_version 1")
+    if declaration.get("schema_version") not in (1, 2):
+        raise ValueError("The tier declaration must declare a known schema_version")
     if declaration.get("tier") != "nvim" or declaration.get("applies") != "always":
         raise ValueError("nvim is an editor tier and must apply in every project")
     if "tj-agents/nvim" not in (declaration.get("owner_repository") or []):
