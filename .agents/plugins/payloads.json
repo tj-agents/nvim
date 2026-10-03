@@ -1,17 +1,7 @@
 {
-  "description": "Neovim learning companion: a teaching method and curriculum over Tommy's Neovim config, plus a proven-progress tracker updated as he learns.",
-  "publicPlugins": [
-    "nvim"
-  ],
   "payloads": {
     "nvim": [
       "nvim"
-    ]
-  },
-  "profiles": {
-    "core": [
-      "knowledge",
-      "learning"
     ]
   }
 }

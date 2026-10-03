@@ -1,16 +1,33 @@
 {
   "plugin": "nvim",
+  "dependencies": [],
   "profiles": {
-    "core": [
+    "knowledge": [
+      "direction",
       "knowledge",
       "learning"
     ]
   },
+  "compatibilitySkillAliases": {},
   "skills": [
+    {
+      "name": "direction",
+      "kind": "knowledge",
+      "profile": "knowledge",
+      "applicability": [
+        "Neovim learning"
+      ],
+      "requires": [
+        "neovim"
+      ],
+      "provenance": [
+        "house"
+      ]
+    },
     {
       "name": "knowledge",
       "kind": "knowledge",
-      "profile": "core",
+      "profile": "knowledge",
       "applicability": [
         "Neovim use and learning"
       ],
@@ -24,7 +41,7 @@
     {
       "name": "learning",
       "kind": "knowledge",
-      "profile": "core",
+      "profile": "knowledge",
       "applicability": [
         "Neovim use and learning"
       ],
