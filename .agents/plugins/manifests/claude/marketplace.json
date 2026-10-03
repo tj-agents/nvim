@@ -3,19 +3,5 @@
   "description": "Neovim learning companion for Tommy's editor config, distributed as load-on-demand skills.",
   "owner": {
     "name": "Tommy Seery"
-  },
-  "plugins": [
-    {
-      "name": "nvim",
-      "source": "./plugins/nvim",
-      "description": "Learn Neovim through Tommy's own config, with progress tracked as he goes.",
-      "category": "Productivity",
-      "keywords": [
-        "neovim",
-        "nvim",
-        "learning",
-        "editor"
-      ]
-    }
-  ]
+  }
 }
