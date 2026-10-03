@@ -1,6 +1,9 @@
 # nvim capabilities
 
-Generated from canonical `.agents/<kind>/<name>/` definitions.
+Generated from `.agents/<plugin>/<kind>/<family>/<member>/SKILL.md`; a skill's name is its folder path below the kind folder joined by hyphens.
 
-- `knowledge` — knowledge — core — `.agents/knowledge/knowledge/SKILL.md`
-- `learning` — knowledge — core — `.agents/knowledge/learning/SKILL.md`
+## nvim
+
+- `direction` — knowledge — knowledge — `.agents/nvim/knowledge/direction/SKILL.md`
+- `knowledge` — knowledge — knowledge — `.agents/nvim/knowledge/knowledge/SKILL.md`
+- `learning` — knowledge — knowledge — `.agents/nvim/knowledge/learning/SKILL.md`
