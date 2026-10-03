@@ -1,6 +1,5 @@
 # nvim package capabilities
 
-Generated from canonical `.agents/<kind>/<name>/` definitions.
-
-- `knowledge` — knowledge — core — `.agents/knowledge/knowledge/SKILL.md`
-- `learning` — knowledge — core — `.agents/knowledge/learning/SKILL.md`
+- `direction` — knowledge — knowledge
+- `knowledge` — knowledge — knowledge
+- `learning` — knowledge — knowledge
