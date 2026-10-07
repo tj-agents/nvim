@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "plugin": "nvim-agents/nvim",
+  "source_roots": [
+    ".agents/nvim"
+  ],
+  "requires": {
+    "marketplaces": [
+      {
+        "id": "nvim-agents",
+        "repository": "tj-agents/nvim"
+      }
+    ],
+    "plugins": [
+      "nvim-agents/nvim"
+    ],
+    "hooks": [],
+    "permissions": {
+      "claude_allow": [],
+      "codex_prefix_rules": []
+    }
+  }
+}
