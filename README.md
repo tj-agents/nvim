@@ -16,6 +16,6 @@ pwsh .agents/sync-generated.ps1
 pwsh .agents/sync-generated.ps1 -Check
 ```
 
-The layout, the vendored generator and CI come from [kit](https://github.com/tj-agents/kit).
+The layout, the vendored generator and CI come from [Template](https://github.com/tj-agents/template).
 
 Push to `main`; sessions pick the change up when the plugin updates.
