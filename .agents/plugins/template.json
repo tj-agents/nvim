@@ -1,6 +1,5 @@
 {
   "schema_version": 1,
   "repository": "tj-agents/nvim",
-  "type": "tool",
-  "template": "2.0.0"
+  "type": "tool"
 }
