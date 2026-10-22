@@ -1,7 +1,7 @@
 # nvim
 
-Neovim learning companion for Claude Code and Codex, published as plugin `nvim` from this repository's
-`nvim-agents` marketplace. The config it teaches is [`yanchikpiypiy/nvim-wsl`](https://github.com/yanchikpiypiy/nvim-wsl).
+Neovim learning companion for Claude Code and Codex, published as plugin `tj-agents/nvim` from the
+`tj-agents` marketplace. The config it teaches is [`yanchikpiypiy/nvim-wsl`](https://github.com/yanchikpiypiy/nvim-wsl).
 
 ## Skills
 

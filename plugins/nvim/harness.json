@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "plugin": "nvim-agents/nvim",
+  "plugin": "tj-agents/nvim",
   "source_roots": [
     ".agents/nvim"
   ],
   "requires": {
     "marketplaces": [
       {
-        "id": "nvim-agents",
-        "repository": "tj-agents/nvim"
+        "id": "tj-agents",
+        "repository": "tj-agents/marketplace"
       }
     ],
     "plugins": [
-      "nvim-agents/nvim"
+      "tj-agents/nvim"
     ],
     "hooks": [],
     "permissions": {
