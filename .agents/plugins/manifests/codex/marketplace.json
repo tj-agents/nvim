@@ -1,5 +1,4 @@
 {
-  "name": "nvim-agents",
   "interface": {
     "displayName": "Neovim Learning"
   }
