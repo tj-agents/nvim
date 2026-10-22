@@ -1,5 +1,5 @@
 {
-  "name": "nvim-agents",
+  "name": "tj-agents",
   "interface": {
     "displayName": "Neovim Learning"
   },
