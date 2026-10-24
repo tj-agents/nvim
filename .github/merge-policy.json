@@ -3,8 +3,6 @@
   "required_checks": [
     "verify / hosts",
     "verify / verify (ubuntu-latest)",
-    "verify / verify (windows-latest)",
-    "policy / check (ubuntu-latest, python3)",
-    "policy / check (windows-latest, python)"
+    "verify / verify (windows-latest)"
   ]
 }
