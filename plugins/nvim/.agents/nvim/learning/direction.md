@@ -1,17 +1,4 @@
----
-name: direction
-description: Where Tommy is headed with Neovim — the goal, the staged skill tree over his own config's keymaps, and the references every lesson cites. Use when choosing or sequencing what to teach next, running the placement check, or sourcing a Neovim explanation.
-kind: knowledge
-domain: nvim
-profile: knowledge
-applicability: Neovim learning
-requires: neovim
-provenance: house
----
-
-# Where Tommy is headed with Neovim
-
-`nvim:knowledge` tracks where Tommy is now; this tracks where he is going.
+# Neovim learning direction
 
 ## The goal
 
@@ -40,17 +27,3 @@ or text object), not a memorised list of isolated keys.
    `:s/x/y/g`, `:%s`, `&`; `:g/pat/d`; quickfix `]q [q` and `:cdo`; `gv` and `o` in visual mode;
    `<C-a> <C-x>`; the `*` + `ciw` + `n.` refactor loop.
 
-## The rule
-
-Drills happen in a real file in whatever repo Tommy is already in, never a toy sandbox. A slower path he
-understands beats a fast one he doesn't; check that it landed by having him explain a binding back or do
-the next one himself before moving on.
-
-## References
-
-Tommy runs `yanchikpiypiy/nvim-wsl`, cloned at `~/source/repos/nvim-wsl`, with `%LOCALAPPDATA%\nvim`
-junctioned to it. Its `README.md` lists the keymaps; `lua/config/keymaps.lua` and `lua/plugins/*.lua` are
-the real bindings — read them before naming a key, since this config rebinds stock keys (`s` is Flash,
-not substitute; `<leader>f` alone formats). Verify a binding by reading the config, never by scripting
-`nvim --headless`: an insert-mode probe orphans the Copilot server and has frozen the machine (that
-README's Notes section).

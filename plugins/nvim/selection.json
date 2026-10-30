@@ -4,7 +4,6 @@
   "profiles": {
     "knowledge": [
       "direction",
-      "knowledge",
       "learning"
     ]
   },
@@ -12,7 +11,7 @@
   "skills": [
     {
       "name": "direction",
-      "kind": "knowledge",
+      "kind": "reference",
       "profile": "knowledge",
       "applicability": [
         "Neovim learning"
@@ -25,22 +24,8 @@
       ]
     },
     {
-      "name": "knowledge",
-      "kind": "knowledge",
-      "profile": "knowledge",
-      "applicability": [
-        "Neovim use and learning"
-      ],
-      "requires": [
-        "neovim"
-      ],
-      "provenance": [
-        "house"
-      ]
-    },
-    {
       "name": "learning",
-      "kind": "knowledge",
+      "kind": "learning",
       "profile": "knowledge",
       "applicability": [
         "Neovim use and learning"

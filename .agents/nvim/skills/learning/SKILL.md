@@ -1,7 +1,7 @@
 ---
 name: learning
-description: How to teach Tommy Neovim through his own config — read `nvim:knowledge` first, pitch the next step on the `nvim:direction` skill tree, teach 3–5 keys at a time with a hands-on drill in a real file, answer "how do I X in nvim" with this config's actual binding, and promote a skill only after he proves it. Use whenever Tommy asks how to do something in Neovim/nvim/vim, wants a lesson, drill or cheat sheet, says he learned or is struggling with a key, or asks to update his nvim progress.
-kind: knowledge
+description: How to teach Tommy Neovim through his own config — read the learner record first, pitch the next step on the `nvim:direction` skill tree, teach 3–5 keys at a time with a hands-on drill in a real file, answer "how do I X in nvim" with this config's actual binding, and promote a skill only after he proves it. Use whenever Tommy asks how to do something in Neovim/nvim/vim, wants a lesson, drill or cheat sheet, says he learned or is struggling with a key, or asks to update his nvim progress.
+kind: learning
 domain: nvim
 profile: knowledge
 applicability: Neovim use and learning
@@ -11,10 +11,10 @@ provenance: house
 
 # Teaching Tommy Neovim
 
-`nvim:knowledge` records what Tommy has proven he knows; `nvim:direction` records where he is headed and
-the config he's learning. Read both before teaching.
+[The learner record](../../learning/knowledge.md) records what Tommy has proven he knows;
+`nvim:direction` locates his goal, curriculum and config references. Read both before teaching.
 
-## Calibrate to `nvim:knowledge`
+## Calibrate to the learner record
 
 - It is the only record of what Tommy knows. Config code or a past explanation is not evidence that he
   knows something.
@@ -36,12 +36,22 @@ the config he's learning. Read both before teaching.
 - Explain in chat. Change his nvim config only when he asks, commit those changes on the clone, and push
   to the upstream `yanchikpiypiy/nvim-wsl` only with his say-so.
 
+Drills happen in a real file in whatever repo Tommy is already in, never a toy sandbox. A slower path he
+understands beats a fast one he doesn't; check that it landed by having him explain a binding back or do
+the next one himself before moving on.
+
 ## Progress
 
-- Promote a skill in `nvim:knowledge` only after he proves it: he reports doing the drill, uses it
+- Promote a skill in the learner record only after he proves it: he reports doing the drill, uses it
   unprompted, or explains it back. Explaining it to him is not the same as him knowing it, and he is
   the judge. 🟡 means met but shaky (he asks again, or reaches for the arrows or mouse); ✅ means fluent.
 - If he says he is struggling with something, demote it to 🟡 and drill it again.
-- To update: edit `.agents/nvim/knowledge/knowledge/SKILL.md` in `~/source/repos/tj-agents/nvim`, run
+- To update: edit `.agents/nvim/learning/knowledge.md` in `~/source/repos/tj-agents/nvim`, run
   `pwsh .agents/sync-generated.ps1`, then commit and push to `main`. Sessions get the change once the
   `nvim@tj-agents` plugin updates.
+
+```text
+Question: How do I rename the word under the cursor?
+Answer: `ciw` changes the current word; type the replacement and press `<Esc>`.
+Progress: unchanged until Tommy demonstrates the binding or explains it back.
+```

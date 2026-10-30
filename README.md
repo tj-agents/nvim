@@ -5,7 +5,10 @@ Neovim learning companion for Claude Code and Codex, published as plugin `tj-age
 
 ## Skills
 
-- Knowledge: `nvim:direction`, `nvim:knowledge`, `nvim:learning`.
+- Learning: `nvim:learning`.
+- Reference: `nvim:direction`.
+
+Learner facts and curriculum progress live in `.agents/nvim/learning/knowledge.md` and `direction.md`.
 
 The tier applies in every project (`tier.json` `applies: always`): the editor is not a repository stack.
 

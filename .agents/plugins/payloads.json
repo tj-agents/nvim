@@ -3,5 +3,12 @@
     "nvim": [
       "nvim"
     ]
-  }
+  },
+  "resources": [
+    {
+      "plugin": "nvim",
+      "source": ".agents/nvim/learning",
+      "destination": ".agents/nvim/learning"
+    }
+  ]
 }
