@@ -20,5 +20,6 @@
     "category": "Productivity",
     "capabilities": [],
     "defaultPrompt": "Teach me the next Neovim step at my current level."
-  }
+  },
+  "version": "b7714739bbe2"
 }
