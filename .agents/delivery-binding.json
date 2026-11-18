@@ -1,0 +1,32 @@
+{
+  "authorization_resolution": {
+    "standing": "auto",
+    "stopped_by": {
+      "class": "ci-workflow",
+      "path": ".github/workflows/ci.yml"
+    }
+  },
+  "auto_merge": false,
+  "bound_at": "2026-11-10T17:26:44.568648+00:00",
+  "branch": "Fix/WorkflowStandardsSweep",
+  "changed_path_count": 1,
+  "completion_condition": "PR published; coordinator claude:5ed8d853-d8b1-4587-81f9-c4e3254d8c84 owns CI and Tommy approval via the canonical handoff report; no merge authorized.",
+  "head": "e755984a18d5144992cf2d6ec421cd65aa1b613c",
+  "merge_authorization": {
+    "instruction": null,
+    "mode": "absent"
+  },
+  "pending_evidence": [],
+  "pr": 31,
+  "pr_url": "https://github.com/tj-agents/nvim/pull/31",
+  "repo": "tj-agents/nvim",
+  "review": {
+    "reviewed_sha": "e755984a18d5144992cf2d6ec421cd65aa1b613c",
+    "work_order": "C:\\Users\\TommySeery\\source\\repos\\tj-agents\\nvim\\.git\\agent-workflow\\reviews\\05f911d767c7c55be8824241a9a07f1362fb6d1586d38bdad2f9a07f67c9af4d\\work-order.md",
+    "work_order_order": [
+      "full"
+    ]
+  },
+  "schema_version": 1,
+  "worktree": "C:\\Users\\TommySeery\\source\\repos\\tj-agents\\nvim.worktrees\\Fix-WorkflowGate-20261110"
+}
