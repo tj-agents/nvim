@@ -1,6 +1,8 @@
 {
   "plugin": "nvim",
-  "dependencies": [],
+  "dependencies": [
+    "tj-agents/engineering"
+  ],
   "profiles": {
     "knowledge": [
       "direction",

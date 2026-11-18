@@ -3,5 +3,10 @@
     "nvim": [
       "nvim"
     ]
+  },
+  "dependencies": {
+    "nvim": [
+      "tj-agents/engineering"
+    ]
   }
 }
