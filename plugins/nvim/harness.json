@@ -12,7 +12,8 @@
       }
     ],
     "plugins": [
-      "tj-agents/nvim"
+      "tj-agents/nvim",
+      "tj-agents/engineering"
     ],
     "hooks": [],
     "permissions": {

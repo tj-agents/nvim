@@ -12,5 +12,8 @@
     "nvim",
     "learning",
     "editor"
+  ],
+  "dependencies": [
+    "engineering@tj-agents"
   ]
 }
